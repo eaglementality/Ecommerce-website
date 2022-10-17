@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\Ecommerce-Product-page"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "ecommerce-product-page-main"
+  }
+}

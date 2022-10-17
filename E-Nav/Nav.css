@@ -1,0 +1,39 @@
+.nav-item{
+   margin-left: 25px;
+   padding-top: 3px;
+   cursor: pointer;
+   padding-bottom:15px ;
+}
+.nav-item:hover{
+   /* padding-bottom:10px; */
+   border-bottom: 2px solid var(---Orange);                                                                             
+   white-space: 12%;
+   
+}
+.navbar{
+   background-color: white;
+   margin-top: 15px;
+   border-bottom: 1px solid lightgray;
+}
+.navbar-brand{
+   margin-left: 65px;
+   font-weight: bolder;
+   padding-bottom: 18px;
+   font-size: var(---font-size);
+}
+#cart{
+   margin-left: 690px;
+   width:20px;
+   padding-top: 12px;
+   cursor: pointer;
+}
+#avartar{
+   margin-left: 32px;
+   width: 40px;
+   cursor:pointer;
+   margin-right: 65px;
+}
+#avartar:hover{
+    border : 2px solid var(---Orange);
+    border-radius: 50px;       
+}

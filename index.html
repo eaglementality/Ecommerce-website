@@ -1,0 +1,72 @@
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+
+  <div class="Nav">
+  <b> sneakers </b>
+  Collections
+  Men
+  Women
+  About
+  Contact
+  <img id="cart" src="./images/icon-cart.svg"/>
+  <img id="avartar" src="./images/image-avatar.png"/>
+</div>
+<hr/>
+
+<section className='Main_container'>
+
+<div className='img_container'>
+  <img style="border-radius: 5px;"  src="./images/image-product-1.jpg"height="310px" width="289px">
+  
+  <div className='each_imgsize'>
+  <img id='p1' src="./images/image-product-1.jpg">
+  <img src="./images/image-product-2.jpg">
+  <img src="./images/image-product-3.jpg">
+  <img src="./images/image-product-4.jpg"></div>
+</div>
+<div className='container'>
+<div style="color:rgb(243, 106, 26)"> Sneaker Company</div>
+
+<h2>  Fall Limited Edition Sneakers</h2>
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+<div id="space"><h3>$125.00</h3><span>50%</span></div>
+$250.00
+<br>
+<br>
+<div>
+<span style=" width:3px; gap: 5px; background-color: rgb(233, 237, 245);border-radius: 5px;align-content: center;">
+<img id="opt" src="./images/icon-minus.svg" />
+0
+<img id="opt" src="./images/icon-plus.svg"/></span>  
+<span style=" gap: 3px;    background-color: rgb(233, 108, 36); border-radius: 5px;">
+  <img src="./images/icon-cart.svg" height="13px" width="13px"/>
+  Add to cart</span>
+</div>  
+  <div className='attribution'>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jesse Owusu Yeboah</a>.
+  </div>
+  </div>
+</section>
+
+
+
+.Nav{ padding: 16px 18px; word-spacing: 40px; margin-left: 50px; }
+    
+#cart{height: 13px;width:13px; margin-left: 50%;}
+#avartar{height: 2%;width:2%;  ;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.container{height: 200px; width:300px;float:right;margin-top: 43px;}
+.img_container{height: 100px;width:100px;float:left;}
+.each_imgsize{display: inline-flex;gap:29px}
+.each_imgsize img{height:50px ;width:50px ;border-radius: 5px;}
+.Main_container{height:100%;width: 50%;margin-left:25%;margin-top: 5%; 
+                display:inline-flex;gap: 290px; }
+.space{display: inline;}
+#p1{opacity: 0.4; border:  solid rgb(240, 103, 12); border-width:2px ; }
+#opt{display:inline-flex;gap:2px;}   
